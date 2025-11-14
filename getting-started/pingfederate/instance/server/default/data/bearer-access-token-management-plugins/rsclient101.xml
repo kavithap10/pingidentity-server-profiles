@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:AccessTokenManagerConfiguration inheritAccessControlSettings="false" inheritSelectionSettings="false" inheritSessionValidationSettings="false" restrictClients="false" includeSessionIdentifier="true" checkSessionRevocationStatus="false" checkValidAuthnSession="false" updateAuthnSessionActivity="false" defaultSubjectAttribute="" isInheritExtendedContractAttributes="false" name="rs_client_token_manager" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="Token Lifetime">60</urn:Field>
+        <urn:Field name="Use Centralized Signing Key">true</urn:Field>
+        <urn:Field name="JWS Algorithm">RS256</urn:Field>
+        <urn:Field name="Active Symmetric Key ID">HMAC_generation_key</urn:Field>
+        <urn:Field name="Active Signing Certificate Key ID"/>
+        <urn:Field name="JWE Algorithm"/>
+        <urn:Field name="JWE Content Encryption Algorithm"/>
+        <urn:Field name="Active Symmetric Encryption Key ID"/>
+        <urn:Field name="Asymmetric Encryption Key"/>
+        <urn:Field name="Asymmetric Encryption JWKS URL"/>
+        <urn:Field name="Include Key ID Header Parameter">true</urn:Field>
+        <urn:Field name="Include X.509 Thumbprint Header Parameter">false</urn:Field>
+        <urn:Field name="Default JWKS URL Cache Duration">720</urn:Field>
+        <urn:Field name="Include JWE Key ID Header Parameter">true</urn:Field>
+        <urn:Field name="Include JWE X.509 Thumbprint Header Parameter">false</urn:Field>
+        <urn:Field name="Client ID Claim Name"/>
+        <urn:Field name="Scope Claim Name">WINDCHILL</urn:Field>
+        <urn:Field name="Space Delimit Scope Values">true</urn:Field>
+        <urn:Field name="Issuer Claim Value">https://ping-federate.intercax.com:9031</urn:Field>
+        <urn:Field name="Audience Claim Value">https://wc121.intercax.com</urn:Field>
+        <urn:Field name="JWT ID Claim Length">0</urn:Field>
+        <urn:Field name="Access Grant GUID Claim Name"/>
+        <urn:Field name="JWKS Endpoint Path"/>
+        <urn:Field name="JWKS Endpoint Cache Duration">720</urn:Field>
+        <urn:Field name="Publish Key ID X.509 URL">false</urn:Field>
+        <urn:Field name="Publish Thumbprint X.509 URL">false</urn:Field>
+        <urn:Field name="Expand Scope Groups">false</urn:Field>
+        <urn:Field name="Type Header Value">JWT</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="Include Key ID Header Parameter">true</urn:Field>
+        <urn:Field name="Include X.509 Thumbprint Header Parameter">false</urn:Field>
+        <urn:Field name="Default JWKS URL Cache Duration">720</urn:Field>
+        <urn:Field name="Include JWE Key ID Header Parameter">true</urn:Field>
+        <urn:Field name="Include JWE X.509 Thumbprint Header Parameter">false</urn:Field>
+        <urn:Field name="Client ID Claim Name"/>
+        <urn:Field name="Scope Claim Name">WINDCHILL</urn:Field>
+        <urn:Field name="Space Delimit Scope Values">true</urn:Field>
+        <urn:Field name="Issuer Claim Value">https://ping-federate.intercax.com:9031</urn:Field>
+        <urn:Field name="Audience Claim Value">https://wc121.intercax.com</urn:Field>
+        <urn:Field name="JWT ID Claim Length">0</urn:Field>
+        <urn:Field name="Access Grant GUID Claim Name"/>
+        <urn:Field name="JWKS Endpoint Path"/>
+        <urn:Field name="JWKS Endpoint Cache Duration">720</urn:Field>
+        <urn:Field name="Publish Key ID X.509 URL">false</urn:Field>
+        <urn:Field name="Publish Thumbprint X.509 URL">false</urn:Field>
+        <urn:Field name="Expand Scope Groups">false</urn:Field>
+        <urn:Field name="Type Header Value">JWT</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables>
+        <urn:Table name="Symmetric Keys">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Key ID">HMAC_generation_key</urn:Field>
+                <urn:Field name="Key">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjMuMiJ9..rhQCh5w8wTeWzYNVRAmzzw.lwd09CFtDk-WhnmEfEx27Z0DpPYEEc3cCWR2sY1iDvzbRVI6PrqiK7c8B-auBaf2t-l6xJvWx9LOPUBBr5QreTNiNPi_sMyfc904uBngqbI.zDlpsnbYZEREfihP3mpvBQ</urn:Field>
+                <urn:Field name="Encoding"/>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Key ID">HMAC_generation_key_2</urn:Field>
+                <urn:Field name="Key">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjMuMiJ9..jg7wWWm17HTze2OW2aMzaQ.8myfUkfcbU2yZn8Ub7Yzc3uICAUix6yyvSYoXK2J26pwcY2D875gV0yJDEvpiOprCJkHQGLSJHhRdrYEoU1VYoLToHcKpWPgLjuam5TzyzA.fRJFXn_o0e9ZtOAGRzv1tg</urn:Field>
+                <urn:Field name="Encoding"/>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Key ID">HMAC_generation_key_3</urn:Field>
+                <urn:Field name="Key">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjMuMiJ9..1Z7u8UY0aIMcdbb1K57now.axDmiiDqPVWF41f947hjN8cI4QFN63vnayAohG7a1Ih32QjAB9-sqP1j9Opvjaor.GCYDTWXNT4ysehx9pjfxig</urn:Field>
+                <urn:Field name="Encoding">b64u</urn:Field>
+            </urn:Row>
+        </urn:Table>
+        <urn:Table name="Certificates">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Key ID">K4Df9m7bp_itXEfKmu2gGOyQLvE</urn:Field>
+                <urn:Field name="Certificate">c8ywzxx0zuqltp709mtvjayu6</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+    <urn:ExtendedContractAttributes>
+        <urn:AttributeName>nbf</urn:AttributeName>
+        <urn:AttributeName>Username</urn:AttributeName>
+    </urn:ExtendedContractAttributes>
+    <urn:ExtendedAttributesAdditionalProperties/>
+</urn:AccessTokenManagerConfiguration>

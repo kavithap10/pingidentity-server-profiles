@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="SMTP Notifier (08aug2022 llv)" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="From Address">lonnie.vanzandt@intercax.com</urn:Field>
+        <urn:Field name="Email Server">smtp.intercax.com</urn:Field>
+        <urn:Field name="SMTP Port">25</urn:Field>
+        <urn:Field name="Encryption Method">NONE</urn:Field>
+        <urn:Field name="SMTPS Port">465</urn:Field>
+        <urn:Field name="Verify Hostname">true</urn:Field>
+        <urn:Field name="UTF-8 Message Header Support">false</urn:Field>
+        <urn:Field name="Username">lonnie.vanzandt@intercax.com</urn:Field>
+        <urn:Field name="Password">eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjMuMiJ9..OQXMElnFFBMDiWx0AE1nWg.GocdmEXHKI8LlbXLlpChCHU8s5lC0sJvIvb3e5jkx54.Hy__ms3LSM07MPFx-kOEqg</urn:Field>
+        <urn:Field name="Test Address">lonnie.vanzandt@intercax.com</urn:Field>
+        <urn:Field name="Connection Timeout">30</urn:Field>
+        <urn:Field name="Retry Attempt"/>
+        <urn:Field name="Retry Delay"/>
+        <urn:Field name="Enable SMTP Debugging Messages">false</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields>
+        <urn:Field name="Connection Timeout">30</urn:Field>
+        <urn:Field name="Retry Attempt"/>
+        <urn:Field name="Retry Delay"/>
+        <urn:Field name="Enable SMTP Debugging Messages">false</urn:Field>
+    </urn:AdvancedFields>
+    <urn:Tables/>
+    <urn:ExtendedAttributesAdditionalProperties/>
+</urn:PluginConfiguration>

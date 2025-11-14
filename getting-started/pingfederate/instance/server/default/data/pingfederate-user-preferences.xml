@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user:user-preferences xmlns:user="http://pingidentity.com/2020/07/user-preferences">
+    <user:user>
+        <user:user-key>lonnie.vanzandt-native-local</user:user-key>
+        <user:shortcuts>dataSources</user:shortcuts>
+        <user:shortcuts>spConnections</user:shortcuts>
+        <user:shortcuts>idpAdapterManager</user:shortcuts>
+        <user:shortcuts>authnPolicies1</user:shortcuts>
+        <user:shortcuts>onLoadApcToPersistentGrantMappings</user:shortcuts>
+        <user:shortcuts>onLoadClientManagement</user:shortcuts>
+        <user:shortcuts>onAccessTokenMapping</user:shortcuts>
+        <user:shortcuts>onLoadPolicyManagement</user:shortcuts>
+        <user:shortcuts>credentialValidators</user:shortcuts>
+        <user:shortcuts>extendedProperties</user:shortcuts>
+    </user:user>
+</user:user-preferences>

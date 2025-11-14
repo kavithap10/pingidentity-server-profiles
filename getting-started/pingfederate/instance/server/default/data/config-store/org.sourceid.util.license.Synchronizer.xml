@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:item name="282afc13-69e8-49cb-a50f-d0586fd88c08:WARN">2025-04-05</con:item>
+    <con:item name="282afc13-69e8-49cb-a50f-d0586fd88c08:GRACE">2025-04-09</con:item>
+    <con:item name="282afc13-69e8-49cb-a50f-d0586fd88c08:VIOLATION">2025-04-10</con:item>
+    <con:item name="a6d641de-9cc7-4c03-b1b4-cc2e5e75c49d:WARN">2025-05-01</con:item>
+    <con:item name="a6d641de-9cc7-4c03-b1b4-cc2e5e75c49d:GRACE">2025-05-07</con:item>
+    <con:item name="a6d641de-9cc7-4c03-b1b4-cc2e5e75c49d:VIOLATION">2025-05-22</con:item>
+    <con:item name="00806229:WARN">2025-06-20</con:item>
+    <con:item name="00806229:GRACE">2025-06-22</con:item>
+    <con:item name="00821519:WARN">2025-07-21</con:item>
+    <con:item name="00821519:GRACE">2025-07-22</con:item>
+    <con:item name="00836121:WARN">2025-08-20</con:item>
+    <con:item name="00836121:GRACE">2025-08-21</con:item>
+    <con:item name="00848327:WARN">2025-09-18</con:item>
+    <con:item name="00848327:GRACE">2025-09-20</con:item>
+    <con:item name="00848327:VIOLATION">2025-09-21</con:item>
+    <con:item name="00862375:WARN">2025-10-20</con:item>
+    <con:item name="00876432:WARN">2025-11-12</con:item>
+</con:config>

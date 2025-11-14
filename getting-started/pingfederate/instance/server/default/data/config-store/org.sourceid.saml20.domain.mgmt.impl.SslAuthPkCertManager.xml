@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="http://syndeia35-uat-data.intercax.com:9000"/>
+    <con:map name="http://www.okta.com/exk1b4paq1hNkhlKd697"/>
+    <con:map name="http://sc-cont-testing2.intercax.com:9000"/>
+    <con:map name="http://www.okta.com/exk1w2vsoi31iPYX0697"/>
+    <con:map name="http://syndeia35-uat.intercax.com:9000"/>
+    <con:map name="https://syndeia36-uat.intercax.com:9443"/>
+    <con:map name="https://kavitha-sc.intercax.com:9443"/>
+    <con:map name="https://syndeia36-uat-infra-upgrade.intercax.com:9443"/>
+    <con:map name="https://syndeia37-uat.intercax.com:9443"/>
+    <con:map name="https://syndeia37-training.intercax.com:9443"/>
+</con:config>
